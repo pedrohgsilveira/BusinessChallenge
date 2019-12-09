@@ -17,11 +17,15 @@ extension Post {
         return NSFetchRequest<Post>(entityName: "Post")
     }
 
+    @NSManaged public var body: String?
     @NSManaged public var date: String?
     @NSManaged public var id: Int32
+    @NSManaged public var isActive: Bool
     @NSManaged public var poster: String?
-    @NSManaged public var text: String?
+    @NSManaged public var tags: String?
     @NSManaged public var title: String?
+    @NSManaged public var isModified: Bool
+    @NSManaged public var imagePath: String?
     @NSManaged public var channel: Channel?
 
 }

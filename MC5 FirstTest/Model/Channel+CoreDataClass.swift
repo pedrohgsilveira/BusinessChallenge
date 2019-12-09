@@ -13,4 +13,9 @@ import CoreData
 @objc(Channel)
 public class Channel: NSManagedObject {
 
+    func feed(id: Int32, name: String) {
+        self.id = id
+        self.name = name
+    }
+    
 }

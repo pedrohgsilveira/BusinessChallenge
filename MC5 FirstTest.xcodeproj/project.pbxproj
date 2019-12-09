@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F7C65A4239ACDE10028DDF7 /* ServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7C65A3239ACDE10028DDF7 /* ServerManager.swift */; };
-		4F7C65A6239AD1400028DDF7 /* NotURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7C65A5239AD1400028DDF7 /* NotURLProtocol.swift */; };
-		4F7C65A8239EB7D20028DDF7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7C65A7239EB7D20028DDF7 /* Extensions.swift */; };
-		D902972F239AC8090048DB10 /* Admin+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9029729239AC8090048DB10 /* Admin+CoreDataClass.swift */; };
-		D9029730239AC8090048DB10 /* Admin+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D902972A239AC8090048DB10 /* Admin+CoreDataProperties.swift */; };
-		D9029731239AC8090048DB10 /* Post+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D902972B239AC8090048DB10 /* Post+CoreDataClass.swift */; };
-		D9029732239AC8090048DB10 /* Post+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D902972C239AC8090048DB10 /* Post+CoreDataProperties.swift */; };
-		D9029733239AC8090048DB10 /* Channel+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D902972D239AC8090048DB10 /* Channel+CoreDataClass.swift */; };
-		D9029734239AC8090048DB10 /* Channel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D902972E239AC8090048DB10 /* Channel+CoreDataProperties.swift */; };
+		D9C7FAC6239ACEE100FC755F /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C7FAC5239ACEE100FC755F /* CoreDataManager.swift */; };
+		D9C7FAC8239AD0E500FC755F /* DataModifiedDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C7FAC7239AD0E500FC755F /* DataModifiedDelegate.swift */; };
+		D9C7FACA239AD25000FC755F /* CoreDataStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C7FAC9239AD25000FC755F /* CoreDataStatus.swift */; };
+		D9C7FAD1239AF17100FC755F /* Channel+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C7FACD239AF17100FC755F /* Channel+CoreDataClass.swift */; };
+		D9C7FAD2239AF17100FC755F /* Channel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C7FACE239AF17100FC755F /* Channel+CoreDataProperties.swift */; };
+		D9C7FAD3239AF17100FC755F /* Post+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C7FACF239AF17100FC755F /* Post+CoreDataClass.swift */; };
+		D9C7FAD4239AF17100FC755F /* Post+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C7FAD0239AF17100FC755F /* Post+CoreDataProperties.swift */; };
+		D9C7FAD6239AF62800FC755F /* NotificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C7FAD5239AF62800FC755F /* NotificationHandler.swift */; };
+		D9C7FAD8239AF76B00FC755F /* AplicationNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C7FAD7239AF76B00FC755F /* AplicationNotifications.swift */; };
 		D9FF76BB239AB7480082F677 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FF76BA239AB7480082F677 /* AppDelegate.swift */; };
 		D9FF76BD239AB7480082F677 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FF76BC239AB7480082F677 /* SceneDelegate.swift */; };
 		D9FF76BF239AB7480082F677 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FF76BE239AB7480082F677 /* ViewController.swift */; };
@@ -27,15 +27,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4F7C65A3239ACDE10028DDF7 /* ServerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerManager.swift; sourceTree = "<group>"; };
-		4F7C65A5239AD1400028DDF7 /* NotURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotURLProtocol.swift; sourceTree = "<group>"; };
-		4F7C65A7239EB7D20028DDF7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		D9029729239AC8090048DB10 /* Admin+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Admin+CoreDataClass.swift"; sourceTree = "<group>"; };
-		D902972A239AC8090048DB10 /* Admin+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Admin+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		D902972B239AC8090048DB10 /* Post+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Post+CoreDataClass.swift"; sourceTree = "<group>"; };
-		D902972C239AC8090048DB10 /* Post+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Post+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		D902972D239AC8090048DB10 /* Channel+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Channel+CoreDataClass.swift"; sourceTree = "<group>"; };
-		D902972E239AC8090048DB10 /* Channel+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Channel+CoreDataProperties.swift"; sourceTree = "<group>"; };
+
+		D9C7FAC5239ACEE100FC755F /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		D9C7FAC7239AD0E500FC755F /* DataModifiedDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModifiedDelegate.swift; sourceTree = "<group>"; };
+		D9C7FAC9239AD25000FC755F /* CoreDataStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStatus.swift; sourceTree = "<group>"; };
+		D9C7FACD239AF17100FC755F /* Channel+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Channel+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D9C7FACE239AF17100FC755F /* Channel+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Channel+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D9C7FACF239AF17100FC755F /* Post+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Post+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D9C7FAD0239AF17100FC755F /* Post+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Post+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D9C7FAD5239AF62800FC755F /* NotificationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationHandler.swift; sourceTree = "<group>"; };
+		D9C7FAD7239AF76B00FC755F /* AplicationNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AplicationNotifications.swift; sourceTree = "<group>"; };
 		D9FF76B7239AB7480082F677 /* MC5 FirstTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MC5 FirstTest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9FF76BA239AB7480082F677 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9FF76BC239AB7480082F677 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,12 +92,10 @@
 		D9FF76D1239AB7750082F677 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				D9029729239AC8090048DB10 /* Admin+CoreDataClass.swift */,
-				D902972A239AC8090048DB10 /* Admin+CoreDataProperties.swift */,
-				D902972B239AC8090048DB10 /* Post+CoreDataClass.swift */,
-				D902972C239AC8090048DB10 /* Post+CoreDataProperties.swift */,
-				D902972D239AC8090048DB10 /* Channel+CoreDataClass.swift */,
-				D902972E239AC8090048DB10 /* Channel+CoreDataProperties.swift */,
+				D9C7FACD239AF17100FC755F /* Channel+CoreDataClass.swift */,
+				D9C7FACE239AF17100FC755F /* Channel+CoreDataProperties.swift */,
+				D9C7FACF239AF17100FC755F /* Post+CoreDataClass.swift */,
+				D9C7FAD0239AF17100FC755F /* Post+CoreDataProperties.swift */,
 				D9FF76C3239AB7480082F677 /* MC5_FirstTest.xcdatamodeld */,
 				D9FF76D6239AC04C0082F677 /* APIRequest.swift */,
 				4F7C65A3239ACDE10028DDF7 /* ServerManager.swift */,
@@ -126,8 +125,13 @@
 		D9FF76D4239AB7990082F677 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				D9C7FAD7239AF76B00FC755F /* AplicationNotifications.swift */,
 				D9FF76BA239AB7480082F677 /* AppDelegate.swift */,
 				D9FF76BC239AB7480082F677 /* SceneDelegate.swift */,
+				D9C7FAC5239ACEE100FC755F /* CoreDataManager.swift */,
+				D9C7FAC7239AD0E500FC755F /* DataModifiedDelegate.swift */,
+				D9C7FAC9239AD25000FC755F /* CoreDataStatus.swift */,
+				D9C7FAD5239AF62800FC755F /* NotificationHandler.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -212,19 +216,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9FF76BF239AB7480082F677 /* ViewController.swift in Sources */,
-				D902972F239AC8090048DB10 /* Admin+CoreDataClass.swift in Sources */,
-				D9029732239AC8090048DB10 /* Post+CoreDataProperties.swift in Sources */,
-				D9029733239AC8090048DB10 /* Channel+CoreDataClass.swift in Sources */,
-				4F7C65A6239AD1400028DDF7 /* NotURLProtocol.swift in Sources */,
-				4F7C65A4239ACDE10028DDF7 /* ServerManager.swift in Sources */,
-				D9029730239AC8090048DB10 /* Admin+CoreDataProperties.swift in Sources */,
+
+				D9C7FAD3239AF17100FC755F /* Post+CoreDataClass.swift in Sources */,
 				D9FF76BB239AB7480082F677 /* AppDelegate.swift in Sources */,
 				D9FF76C5239AB7480082F677 /* MC5_FirstTest.xcdatamodeld in Sources */,
-				D9029731239AC8090048DB10 /* Post+CoreDataClass.swift in Sources */,
+				D9C7FAD1239AF17100FC755F /* Channel+CoreDataClass.swift in Sources */,
 				D9FF76D7239AC04C0082F677 /* APIRequest.swift in Sources */,
 				D9FF76BD239AB7480082F677 /* SceneDelegate.swift in Sources */,
-				D9029734239AC8090048DB10 /* Channel+CoreDataProperties.swift in Sources */,
-				4F7C65A8239EB7D20028DDF7 /* Extensions.swift in Sources */,
+
+				D9C7FACA239AD25000FC755F /* CoreDataStatus.swift in Sources */,
+				D9C7FAD8239AF76B00FC755F /* AplicationNotifications.swift in Sources */,
+				D9C7FAC6239ACEE100FC755F /* CoreDataManager.swift in Sources */,
+				D9C7FAC8239AD0E500FC755F /* DataModifiedDelegate.swift in Sources */,
+				D9C7FAD2239AF17100FC755F /* Channel+CoreDataProperties.swift in Sources */,
+				D9C7FAD4239AF17100FC755F /* Post+CoreDataProperties.swift in Sources */,
+				D9C7FAD6239AF62800FC755F /* NotificationHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
