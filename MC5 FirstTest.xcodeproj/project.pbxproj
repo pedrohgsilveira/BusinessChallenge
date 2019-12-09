@@ -27,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+
 		D9C7FAC5239ACEE100FC755F /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		D9C7FAC7239AD0E500FC755F /* DataModifiedDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModifiedDelegate.swift; sourceTree = "<group>"; };
 		D9C7FAC9239AD25000FC755F /* CoreDataStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStatus.swift; sourceTree = "<group>"; };
@@ -97,6 +98,9 @@
 				D9C7FAD0239AF17100FC755F /* Post+CoreDataProperties.swift */,
 				D9FF76C3239AB7480082F677 /* MC5_FirstTest.xcdatamodeld */,
 				D9FF76D6239AC04C0082F677 /* APIRequest.swift */,
+				4F7C65A3239ACDE10028DDF7 /* ServerManager.swift */,
+				4F7C65A5239AD1400028DDF7 /* NotURLProtocol.swift */,
+				4F7C65A7239EB7D20028DDF7 /* Extensions.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -212,12 +216,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9FF76BF239AB7480082F677 /* ViewController.swift in Sources */,
+
 				D9C7FAD3239AF17100FC755F /* Post+CoreDataClass.swift in Sources */,
 				D9FF76BB239AB7480082F677 /* AppDelegate.swift in Sources */,
 				D9FF76C5239AB7480082F677 /* MC5_FirstTest.xcdatamodeld in Sources */,
 				D9C7FAD1239AF17100FC755F /* Channel+CoreDataClass.swift in Sources */,
 				D9FF76D7239AC04C0082F677 /* APIRequest.swift in Sources */,
 				D9FF76BD239AB7480082F677 /* SceneDelegate.swift in Sources */,
+
 				D9C7FACA239AD25000FC755F /* CoreDataStatus.swift in Sources */,
 				D9C7FAD8239AF76B00FC755F /* AplicationNotifications.swift in Sources */,
 				D9C7FAC6239ACEE100FC755F /* CoreDataManager.swift in Sources */,
@@ -369,7 +375,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q9Y63W6Q4X;
+				DEVELOPMENT_TEAM = 93JG72P729;
 				INFOPLIST_FILE = "MC5 FirstTest/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -387,7 +393,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q9Y63W6Q4X;
+				DEVELOPMENT_TEAM = 93JG72P729;
 				INFOPLIST_FILE = "MC5 FirstTest/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
