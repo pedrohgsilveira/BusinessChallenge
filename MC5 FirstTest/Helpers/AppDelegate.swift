@@ -19,6 +19,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let notificationCenter = UNUserNotificationCenter.current()
         notificationCenter.delegate = self as? UNUserNotificationCenterDelegate
         UIApplication.shared.applicationIconBadgeNumber = 0
+        if UserDefaults.standard.bool(forKey: "first_open"){
+            UserDefaults().set(true, forKey: "first_open")
+        }
         return true
     }
 

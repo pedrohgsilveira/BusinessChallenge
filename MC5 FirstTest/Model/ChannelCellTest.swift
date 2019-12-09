@@ -7,3 +7,10 @@
 //
 
 import Foundation
+import UIKit
+
+class ChannelCellTest: UITableViewCell {
+    
+    @IBOutlet weak var lblID: UILabel!
+    @IBOutlet weak var lblName: UILabel!
+}
