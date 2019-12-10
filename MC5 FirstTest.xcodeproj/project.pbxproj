@@ -22,6 +22,9 @@
 		D9C7FAD4239AF17100FC755F /* Post+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C7FAD0239AF17100FC755F /* Post+CoreDataProperties.swift */; };
 		D9C7FAD6239AF62800FC755F /* NotificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C7FAD5239AF62800FC755F /* NotificationHandler.swift */; };
 		D9C7FAD8239AF76B00FC755F /* AplicationNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C7FAD7239AF76B00FC755F /* AplicationNotifications.swift */; };
+		D9FA8E1823A002EC00CB215B /* AddPostModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FA8E1623A002EC00CB215B /* AddPostModalViewController.swift */; };
+		D9FA8E1923A002EC00CB215B /* AddPostModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9FA8E1723A002EC00CB215B /* AddPostModalViewController.xib */; };
+		D9FA8E1B23A0057B00CB215B /* AddPostModalAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9FA8E1A23A0057B00CB215B /* AddPostModalAssets.xcassets */; };
 		D9FF76BB239AB7480082F677 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FF76BA239AB7480082F677 /* AppDelegate.swift */; };
 		D9FF76BD239AB7480082F677 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FF76BC239AB7480082F677 /* SceneDelegate.swift */; };
 		D9FF76BF239AB7480082F677 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FF76BE239AB7480082F677 /* ViewController.swift */; };
@@ -48,6 +51,9 @@
 		D9C7FAD0239AF17100FC755F /* Post+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Post+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		D9C7FAD5239AF62800FC755F /* NotificationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationHandler.swift; sourceTree = "<group>"; };
 		D9C7FAD7239AF76B00FC755F /* AplicationNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AplicationNotifications.swift; sourceTree = "<group>"; };
+		D9FA8E1623A002EC00CB215B /* AddPostModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostModalViewController.swift; sourceTree = "<group>"; };
+		D9FA8E1723A002EC00CB215B /* AddPostModalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddPostModalViewController.xib; sourceTree = "<group>"; };
+		D9FA8E1A23A0057B00CB215B /* AddPostModalAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AddPostModalAssets.xcassets; sourceTree = "<group>"; };
 		D9FF76B7239AB7480082F677 /* MC5 FirstTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MC5 FirstTest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9FF76BA239AB7480082F677 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9FF76BC239AB7480082F677 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +77,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D9FA8E1C23A006BE00CB215B /* AddPostModal */ = {
+			isa = PBXGroup;
+			children = (
+				D9FA8E1623A002EC00CB215B /* AddPostModalViewController.swift */,
+			);
+			path = AddPostModal;
+			sourceTree = "<group>";
+		};
+		D9FA8E1D23A006DA00CB215B /* AddPostModal */ = {
+			isa = PBXGroup;
+			children = (
+				D9FA8E1723A002EC00CB215B /* AddPostModalViewController.xib */,
+			);
+			path = AddPostModal;
+			sourceTree = "<group>";
+		};
+		D9FA8E1E23A0171600CB215B /* ViewPostModal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewPostModal;
+			sourceTree = "<group>";
+		};
+		D9FA8E2323A0173900CB215B /* ViewPostModal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewPostModal;
+			sourceTree = "<group>";
+		};
 		D9FF76AE239AB7480082F677 = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +157,8 @@
 		D9FF76D2239AB7920082F677 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				D9FA8E1E23A0171600CB215B /* ViewPostModal */,
+				D9FA8E1C23A006BE00CB215B /* AddPostModal */,
 				D9FF76BE239AB7480082F677 /* ViewController.swift */,
 				4F7C65B1239ED3C20028DDF7 /* ChannelTest.swift */,
 			);
@@ -130,6 +168,8 @@
 		D9FF76D3239AB7950082F677 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D9FA8E2323A0173900CB215B /* ViewPostModal */,
+				D9FA8E1D23A006DA00CB215B /* AddPostModal */,
 				D9FF76C0239AB7480082F677 /* Main.storyboard */,
 				D9FF76C8239AB74B0082F677 /* LaunchScreen.storyboard */,
 			);
@@ -154,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				D9FF76C6239AB74B0082F677 /* Assets.xcassets */,
+				D9FA8E1A23A0057B00CB215B /* AddPostModalAssets.xcassets */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -218,7 +259,9 @@
 			files = (
 				D9FF76CA239AB74B0082F677 /* LaunchScreen.storyboard in Resources */,
 				D9FF76C7239AB74B0082F677 /* Assets.xcassets in Resources */,
+				D9FA8E1923A002EC00CB215B /* AddPostModalViewController.xib in Resources */,
 				D9FF76C2239AB7480082F677 /* Main.storyboard in Resources */,
+				D9FA8E1B23A0057B00CB215B /* AddPostModalAssets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9FA8E1823A002EC00CB215B /* AddPostModalViewController.swift in Sources */,
 				D9FF76BF239AB7480082F677 /* ViewController.swift in Sources */,
 				D9C7FAD3239AF17100FC755F /* Post+CoreDataClass.swift in Sources */,
 				4F7C65AA239EBBBA0028DDF7 /* NotURLProtocol.swift in Sources */,

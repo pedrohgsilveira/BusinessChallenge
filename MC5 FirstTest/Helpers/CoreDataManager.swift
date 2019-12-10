@@ -46,6 +46,14 @@ public class CoreDataManager{
         }
     }
     
+    public var channels:[Channel] {
+        get {
+            var copy:[Channel] = []
+            copy.append(contentsOf: _channels)
+            return copy
+        }
+    }
+    
     public func addChannel(id: Int32, name:String) -> CoreDataStatus {
         
         let newChannel = NSEntityDescription.insertNewObject(forEntityName: "Channel", into: context) as! Channel
@@ -63,6 +71,21 @@ public class CoreDataManager{
     }
     
     public func addPost(target: Channel, id: Int32, date: String, poster: String, title: String, body: String, isActive: Bool, tags: String, isModified: Bool) -> CoreDataStatus{
+        
+        let newPost = NSEntityDescription.insertNewObject(forEntityName: "Post", into: context) as! Post
+        newPost.feed(id: id, date: date, poster: poster, title: title, body: body, isActive: isActive, tags: tags, isModified: isModified)
+        target.addToPosts(newPost)
+        _posts.append(newPost)
+        do{
+            try context.save()
+            notify()
+            return CoreDataStatus(successful: true)
+        } catch {
+            return CoreDataStatus(successful: false, description: "Não foi possivel criar um novo post")
+        }
+    }
+    
+    public func addNewPost(target: Channel, id: Int32, date: String, poster: String, title: String, body: String, isActive: Bool, tags: String, isModified: Bool) -> CoreDataStatus{
         
         let newPost = NSEntityDescription.insertNewObject(forEntityName: "Post", into: context) as! Post
         newPost.feed(id: id, date: date, poster: poster, title: title, body: body, isActive: isActive, tags: tags, isModified: isModified)
